@@ -1,4 +1,4 @@
-from deep_translator import GoogleTranslator
+
 import pandas as pd
 import requests
 import streamlit as st
