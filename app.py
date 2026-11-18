@@ -9,7 +9,6 @@ st.set_page_config(
     layout="wide",
 )
 
-# --- YAN MENÜ (KURUMSAL KİMLİK & İLETİŞİM) ---
 with st.sidebar:
   st.title("🧬 NöroGenetik Türkiye")
   st.caption(
@@ -34,7 +33,6 @@ with st.sidebar:
   st.divider()
   st.caption("Sürüm: v1.0 (Açık Erişim) | MIT Lisansı")
 
-# --- VERİ TABANI ---
 HASTALIK_VERITABANI = {
     "Dravet Sendromu (Genetik Epilepsi)": {
         "gen": "SCN1A",
@@ -166,14 +164,14 @@ HASTALIK_VERITABANI = {
 }
 @st.cache_data(ttl=3600)
 def gen_detaylarini_getir(gen_sembolu):
-  temiz_gen = gen_sembolu.split("/").strip().upper()
+  temiz_gen = gen_sembolu.strip().upper()
   base = "https://" + "mygene.info/v3/query"
   url = f"{base}?q=symbol:{temiz_gen}&species=human&fields=symbol,name,summary,map_location,type_of_gene,MIM"
   try:
     res = requests.get(url, timeout=8).json()
     hits = res.get("hits", [])
     if hits:
-      h = hits
+      h = next(iter(hits))
       cv_base = "https://" + "www.ncbi.nlm.nih.gov/clinvar/"
       omim_id = str(h.get("MIM", ""))
       return {
@@ -231,7 +229,6 @@ def klinik_arastirmalari_getir(arama_terimi, sadece_turkiye=False):
     return pd.DataFrame()
 
 
-# --- ANA BAŞLIK VE SEKMELER ---
 st.title("🧬 NöroGenetik Türkiye")
 st.markdown(
     "**Nadir Nörogenetik Hastalıklar İçin Açık Erişimli Biyoinformatik ve"
