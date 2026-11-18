@@ -15,7 +15,7 @@ with st.sidebar:
   st.divider()
   st.markdown("### 📊 Platform Etki Göstergesi")
   if "sorgu_sayaci" not in st.session_state:
-    st.session_state.sorgu_sayaci = 142
+    st.session_state.sorgu_sayaci = 1
   st.session_state.sorgu_sayaci += 1
   st.metric(
       label="Toplam Biyoinformatik Sorgu",
