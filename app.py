@@ -45,8 +45,11 @@ HASTALIK_VERITABANI = {
             " kanallarını kodlayan SCN1A genindeki patojenik varyantlar"
             " sorumludur."
         ),
-        "dernek": "Epilepsi ve Yaşam Derneği / Nadir Hastalıklar Ağı",
-        "dernek_url": "https://nadirhastaliklaragi.org.tr",
+        "dernekler": (
+            "• [Epilepsi ve Yaşam Derneği](https://epilepsiveyasam.org.tr)\n"
+            "• [Nadir Hastalıklar Ağı](https://nadirhastaliklaragi.org.tr)\n"
+            "• [Nadir Hastalıklar Federasyonu](https://nadir.org.tr)"
+        ),
     },
     "Rett Sendromu": {
         "gen": "MECP2",
@@ -55,12 +58,12 @@ HASTALIK_VERITABANI = {
         "ozet": (
             "Rett Sendromu, çoğunlukla kız çocuklarında görülen ve X"
             " kromozomu üzerindeki MECP2 genindeki değişimlerden kaynaklanan"
-            " nörogelişimsel bir bozukluktur. Sinir hücreleri arasındaki"
-            " sinaptik iletişimi ve gen ekspresyonunu düzenleyen MeCP2"
-            " proteinini etkiler."
+            " nörogelişimsel bir bozukluktur."
         ),
-        "dernek": "Rett Sendromu Derneği / Nadir Hastalıklar Ağı",
-        "dernek_url": "https://nadirhastaliklaragi.org.tr",
+        "dernekler": (
+            "• [Nadir Hastalıklar Ağı](https://nadirhastaliklaragi.org.tr)\n"
+            "• [Nadir Hastalıklar Federasyonu](https://nadir.org.tr)"
+        ),
     },
     "Spinal Müsküler Atrofi (SMA)": {
         "gen": "SMN1",
@@ -69,11 +72,13 @@ HASTALIK_VERITABANI = {
         "ozet": (
             "SMA, omurilikteki ön boynuz motor sinir hücrelerinin kaybına bağlı"
             " olarak ilerleyici kas güçsüzlüğüne yol açan kalıtsal bir"
-            " nöromüsküler hastalıktır. SMN1 genindeki delesyon veya mutasyonlar"
-            " sonucu SMN proteini üretilemez."
+            " nöromüsküler hastalıktır."
         ),
-        "dernek": "SMA Benimle Yürü Derneği",
-        "dernek_url": "https://smabenimleyuru.org.tr",
+        "dernekler": (
+            "• [SMA Benimle Yürü Derneği](https://smabenimleyuru.org.tr)\n"
+            "• [Türkiye Kas Hastalıkları Derneği (KASDER)](https://kasder.org.tr)\n"
+            "• [Nadir Hastalıklar Ağı](https://nadirhastaliklaragi.org.tr)"
+        ),
     },
     "Frajil X Sendromu": {
         "gen": "FMR1",
@@ -81,12 +86,12 @@ HASTALIK_VERITABANI = {
         "kalitim": "X'e Bağlı",
         "ozet": (
             "Frajil X Sendromu, kalıtsal zihinsel gelişim farklılıklarının ve"
-            " otizm spektrum belirtilerinin en sık tek gen nedenidir. X"
-            " kromozomundaki FMR1 geninde CGG üçlü nükleotid tekrar artışıyla"
-            " FMRP proteininin sentezi baskılanır."
+            " otizm spektrum belirtilerinin en sık tek gen nedenidir."
         ),
-        "dernek": "Türkiye Frajil X Sendromu Dayanışma Derneği",
-        "dernek_url": "https://nadirhastaliklaragi.org.tr",
+        "dernekler": (
+            "• [Nadir Hastalıklar Ağı](https://nadirhastaliklaragi.org.tr)\n"
+            "• [Nadir Hastalıklar Federasyonu](https://nadir.org.tr)"
+        ),
     },
     "Tuberoz Skleroz Kompleksi (TSC)": {
         "gen": "TSC1",
@@ -98,8 +103,10 @@ HASTALIK_VERITABANI = {
             " böbrek ve kalpte iyi huylu hamartomlarla seyreden genetik bir"
             " sendromdur."
         ),
-        "dernek": "Nadir Hastalıklar Ağı",
-        "dernek_url": "https://nadirhastaliklaragi.org.tr",
+        "dernekler": (
+            "• [Nadir Hastalıklar Ağı](https://nadirhastaliklaragi.org.tr)\n"
+            "• [Nadir Hastalıklar Federasyonu](https://nadir.org.tr)"
+        ),
     },
     "Angelman Sendromu": {
         "gen": "UBE3A",
@@ -107,23 +114,28 @@ HASTALIK_VERITABANI = {
         "kalitim": "Genomik İmprinting (15q11-q13)",
         "ozet": (
             "Angelman Sendromu, 15. kromozomdaki maternal UBE3A geninin işlev"
-            " kaybından kaynaklanan; ağır gelişimsel gecikme, konuşma yokluğu"
-            " ve ataksi ile karakterize nörogenetik bir durumdur."
+            " kaybından kaynaklanan; ağır gelişimsel gecikme ve konuşma"
+            " yokluğu ile karakterize nörogenetik bir durumdur."
         ),
-        "dernek": "Nadir Hastalıklar Ağı",
-        "dernek_url": "https://nadirhastaliklaragi.org.tr",
+        "dernekler": (
+            "• [Nadir Hastalıklar Ağı](https://nadirhastaliklaragi.org.tr)\n"
+            "• [Nadir Hastalıklar Federasyonu](https://nadir.org.tr)"
+        ),
     },
     "Duchenne Musküler Distrofi (DMD)": {
         "gen": "DMD",
         "ingilizce_ad": "Duchenne Muscular Dystrophy",
         "kalitim": "X'e Bağlı Resesif",
         "ozet": (
-            "DMD, kas hücresi zarının mekanik bütünlüğünü koruyan distrofin"
-            " proteinini kodlayan DMD genindeki mutasyonlar nedeniyle erken"
-            " çocuklukta başlayan ilerleyici kas yıkımıyla seyreder."
+            "DMD, distrofin proteinini kodlayan DMD genindeki mutasyonlar"
+            " nedeniyle erken çocuklukta başlayan ilerleyici kas yıkımıyla"
+            " seyreder."
         ),
-        "dernek": "DMD Aileleri Derneği",
-        "dernek_url": "https://dmd.org.tr",
+        "dernekler": (
+            "• [DMD Aileleri Derneği](https://dmd.org.tr)\n"
+            "• [Türkiye Kas Hastalıkları Derneği (KASDER)](https://kasder.org.tr)\n"
+            "• [Nadir Hastalıklar Ağı](https://nadirhastaliklaragi.org.tr)"
+        ),
     },
     "Huntington Hastalığı": {
         "gen": "HTT",
@@ -134,20 +146,24 @@ HASTALIK_VERITABANI = {
             " bağlı olarak striatumdaki nöronların ilerleyici dejenerasyonuna"
             " yol açan kalıtsal bir nörodejeneratif hastalıktır."
         ),
-        "dernek": "Huntington Hastalığı Derneği / Nadir Hastalıklar Ağı",
-        "dernek_url": "https://nadirhastaliklaragi.org.tr",
+        "dernekler": (
+            "• [Nadir Hastalıklar Ağı](https://nadirhastaliklaragi.org.tr)\n"
+            "• [Nadir Hastalıklar Federasyonu](https://nadir.org.tr)"
+        ),
     },
     "Nörofibromatozis Tip 1 (NF1)": {
         "gen": "NF1",
         "ingilizce_ad": "Neurofibromatosis Type 1",
         "kalitim": "Otozomal Dominant",
         "ozet": (
-            "NF1, RAS sinyal yolağını düzenleyen nörofibromin tümör baskılayıcı"
-            " proteinini kodlayan NF1 genindeki mutasyonlar sonucu ciltte sütlü"
-            " kahve lekeleri ve nörofibromlarla seyreder."
+            "NF1, nörofibromin tümör baskılayıcı proteinini kodlayan NF1"
+            " genindeki mutasyonlar sonucu ciltte sütlü kahve lekeleri ve"
+            " nörofibromlarla seyreder."
         ),
-        "dernek": "Nörofibromatozis Derneği",
-        "dernek_url": "https://nadirhastaliklaragi.org.tr",
+        "dernekler": (
+            "• [Nadir Hastalıklar Ağı](https://nadirhastaliklaragi.org.tr)\n"
+            "• [Nadir Hastalıklar Federasyonu](https://nadir.org.tr)"
+        ),
     },
     "CDKL5 Eksikliği Bozukluğu": {
         "gen": "CDKL5",
@@ -155,11 +171,13 @@ HASTALIK_VERITABANI = {
         "kalitim": "X'e Bağlı Dominant",
         "ozet": (
             "CDKL5 genindeki patojenik varyantlar sonucu yaşamın ilk"
-            " haftalarında başlayan dirençli epileptik ensefalopati ve ağır"
-            " nörogelişimsel gecikme ile kendini gösteren nadir bir durumdur."
+            " haftalarında başlayan dirençli epileptik ensefalopati ile"
+            " kendini gösteren nadir bir durumdur."
         ),
-        "dernek": "Nadir Hastalıklar Ağı",
-        "dernek_url": "https://nadirhastaliklaragi.org.tr",
+        "dernekler": (
+            "• [Nadir Hastalıklar Ağı](https://nadirhastaliklaragi.org.tr)\n"
+            "• [Nadir Hastalıklar Federasyonu](https://nadir.org.tr)"
+        ),
     },
 }
 @st.cache_data(ttl=3600)
@@ -281,7 +299,7 @@ with tab_sorgu:
     c1.metric("İlişkili Gen", aktif_gen)
     c2.metric("Kalıtım Modeli", bilgi["kalitim"])
     with c3:
-      st.info(f"**Hasta Dayanışma Ağı:**\n[{bilgi['dernek']}]({bilgi['dernek_url']})")
+      st.info(f"**Hasta Dayanışma Ağları:**\n\n{bilgi['dernekler']}")
     st.success(f"**Klinik ve Moleküler Özet:** {bilgi['ozet']}")
   else:
     st.info(
@@ -397,3 +415,4 @@ st.caption(
     "© 2026 NöroGenetik Türkiye | Açık Kaynak Biyoinformatik Platformu — Deniz"
     " İnci Tarma (CoLab Bilim Topluluğu İnisiyatifi)"
 )
+
