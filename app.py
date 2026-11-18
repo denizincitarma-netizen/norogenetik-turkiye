@@ -307,3 +307,4 @@ with tab_hakkinda:
 st.caption("© 2026 NöroGenetik Türkiye | Deniz İnci Tarma — CoLab International Science Community")
 
 
+
